@@ -9,7 +9,7 @@ The application is not digitally signed, therefore:
 For Mac users: After installation, you'll need to either forcefully launch it through Security Settings or execute the command:
 
 ```
-attr -c /Applications/QA\ Uploader.app
+xattr -c /Applications/QA\ Uploader.app
 ```
 After that, the application will become accessible.  
 For Windows users: Use the "Run anyway" option during installation.
